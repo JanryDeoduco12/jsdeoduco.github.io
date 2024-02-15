@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Sample Web Page </title>
+        <style>
+            .nav-container {
+                display: flex;
+                border-style: solid;
+                border-width: 5px;
+                border-color: red;
+                flex-direction: row;
+                
+                
+            }
+            
+            
+            .navBar{
+                border-style: solid;
+                border-width: 2px;
+                border-color: red;
+                align-items: center;
+                text-align: center;
+            }
+
+            #LogoImg{
+                width: 20%;
+                height: auto;
+                
+            }
+
+            .photo-container {
+                display: flex;
+                border-style: solid;
+                border-width: 5px;
+                border-color: red;
+                flex-direction: row;
+                flex-wrap: wrap;
+                
+                
+            }
+    
+            .photo{
+                border-style: solid;
+                border-width: 2px;
+                border-color: red;
+                align-items: center;
+            }
+
+            #image{
+                width: 20%;
+                height: auto;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                border-radius: 50%;
+            }
+
+            .project-container {
+                display: flex;
+                border-style: solid;
+                border-width: 5px;
+                border-color: red;
+                flex-direction: row;
+                flex-wrap: wrap;
+                text-align: center;
+                
+            }
+    
+            .project{
+                border-style: solid;
+                border-width: 2px;
+                border-color: red;
+                align-items: center;
+            }
+
+            .skills-container {
+                display: flex;
+                flex-wrap: wrap;
+                background-color: DodgerBlue;
+                justify-content: center;
+            }
+
+            .skills{
+                background-color: #f1f1f1;
+                width: 500px;
+                margin: 10px;
+                text-align: center;
+                line-height: 75px;
+                font-size: 30px;
+            }
+
+
+    
+        </style>
+    
+        <link  href="layout.css">
+    </head>
+    <body>
+        <!--Flex for navigation bar -->
+        <div class="nav-container">
+                <div class="navBar" style="flex: 8;">
+                    <img src="Logo.png" id="LogoImg">
+                </div>
+                <div class="navBar" style="flex: 3;">
+                    <a href="#">Home</a>   
+                </div>
+                <div class="navBar" style="flex: 3;">
+                    <a href="#">Projects</a> 
+                </div>    
+                <div class="navBar" style="flex: 3;">
+                    <a href="#">Resume</a>   
+                </div>
+                <div class="navBar" style="flex: 3;">
+                    <a href="#">Github</a> 
+                </div>  
+        </div>
+         <!--Flex for featured image text -->
+         <div class="project-container">
+            <div class="project" style="flex: 3;">
+                <h1>Featured Image</h1>
+                
+            </div>  
+            
+        </div>
+        
+        <!--Flex for featured photo -->
+        <div class="photo-container">
+            <div class="photo" style="flex: 3;">
+                <img src="Image.jpg" id="image">
+                
+            </div>  
+        </div>  
+        <!--Flex for previous projects text -->
+        <div class="project-container">
+            <div class="project" style="flex: 3;">
+                <h1>Previous Projects</h1>
+                
+            </div>  
+            
+        </div>
+        <!--Flex for previous projects -->
+        <div class="project-container">
+            <div class="project" style="flex: 3;">
+                <h1>Recipe, Supply, and Supplier Management</h1>
+                
+            </div>  
+            <div class="project" style="flex: 3;">
+                <h1>Starter Pokemon Site</h1>
+                
+            </div>  
+            <div class="project" style="flex: 3;">
+                <h1>Mini JavaFX Game</h1>
+                
+            </div>  
+            <div class="project" style="flex: 3;">
+                <h1>Diet Plan Solver</h1>
+                
+            </div>  
+        </div>
+        
+        <!--Flex for skills and autobiography -->
+        <div class="skills-container">
+            <div class="skills">
+                <h1>Skills</h1>
+                <h1>3</h1>
+                
+            </div> 
+            <div class="skills">
+                <h1>Autobiography</h1>
+                <h1>4</h1>
+                
+            </div> 
+            
+            
+        </div>
+        
+        <!--Flex for footer -->
+        <div class="project-container">
+            <div class="project" style="flex: 1;">
+                <h1>1</h1>
+                
+            </div>  
+            <div class="project" style="flex: 3;">
+                <h1>2</h1>
+                
+            </div>   
+        </div>
+        
+        
+        
+    </body>
+</html>
