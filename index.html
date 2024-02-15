@@ -5,14 +5,14 @@
         <style>
             
             @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-    
+            /*CSS code for adjusting the size, font, weight, and etc of each elements of the portfolio.*/
             .nav-container {
                 display: flex;
                 border-style:hidden;
                 border-width: 5px;
                 background-color: black;
                 flex-direction: row;
-                
+                align-items:center;
                 
             }
             
@@ -20,9 +20,12 @@
             .navBar{
                 border-style: solid;
                 border-width: 2px;
-                border-color: red;
                 align-items: center;
                 text-align: center;
+                font-family: Roboto;
+                font-size: x-large;
+            
+                text-underline-offset:unset;
             }
 
             #LogoImg{
@@ -33,13 +36,12 @@
 
             .photo-container {
                 display: flex;
+                background: linear-gradient(to right, #FFFFFF, #87CEEB);
                 border-style: hidden;
                 border-width: 5px;
                 border-color: red;
                 flex-direction: row;
                 flex-wrap: wrap;
-                
-                
             }
     
             .photo{
@@ -66,10 +68,12 @@
                 flex-direction: row;
                 flex-wrap: wrap;
                 text-align: center;
-                height: 150px;
+                height: 250px;
                 font-family: sans-serif;
                 gap: 16px;
                 margin-bottom: 20px;
+                margin-left: 10%;
+                margin-right: 10%;
                 
             }
 
@@ -82,7 +86,19 @@
                 flex-wrap: wrap;
                 text-align: center;
                 background-color: #F0EDCF;
+                height: 280px;
                 
+            }
+
+            .projecta{
+                border: 2px solid black;
+                border-width: 2px;
+                border-color: black;
+                align-items: center;
+                background-image: url('Project1.png');
+                background-size: cover;
+                justify-content: space-around;
+                border-radius: 10px;
             }
     
             .projecta{
@@ -166,30 +182,48 @@
                 
             }
 
+            .socialMediaLogo{
+                border-style: solid;
+                width: 500px;
+                margin-right: 150px;
+                text-align: center;
+                line-height: 75px;
+                font-size: 30px;
+                flex-wrap: wrap;
+                display: flex;
+                border-style:hidden;
+                
+            }
+
             #name{
                 text-align: center;
             }
             #imageText{
-                font-family: ;
-                font-weight: 200;
+                font-family: Roboto;
+                font-weight: 400;
+                margin-top: 5%;
             }
 
             #imageName{
-                font-family: Roboto;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 900;
+                font-size: 45px;
             }
             #about{
                 font-family: Roboto;
                 font-size:xx-large;
                 text-align: center;
                 margin-right: 30%;
+                font-weight: 900;
             }
 
             #description{
-                font-family: Roboto;
-                
-                font-size: x-large;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 900;
+                font-size:500%;
                 margin-right: 30%;
                 text-align: justify ;
+                color: black;
             }
 
             #description2{
@@ -224,16 +258,239 @@
                 margin-bottom: 100%;
             }
 
+            #Sitelogo{
+                width: 60%;
+                height: auto;
+                margin-left: 100px;
+                margin-right: auto;
+                display: block;
+                border-radius: 50%;
+                margin-bottom: 100%;
+            }
+
             #textID{
                 margin-top: 70px;
             }
 
             #logoName{
                 margin-top: -120px;
+                font-size: 35px;
+                font-family: Roboto;
+                color: white;
+                font-weight: 500;
+            }
+
+            #navText{
+                color: white;
+                text-decoration: none;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 500;
+            }
+
+            .python{
+                background-color: #1B1A55;
+                border-style: solid;
+                width: 100px;
+                height: 70px;
+                text-align: center;
+                line-height: 75px;
+                font-size: 10px;
+                border-style:hidden;
+                margin-top: 60px;
+                justify-content:center;
+                text-wrap:balance;
+            }
+
+            .C{
+                background-color: #1B1A55;
+                border-style: solid;
+                width: 100px;
+                height: 70px;
+                text-align: center;
+                line-height: 75px;
+                font-size: 10px;
+                border-style:hidden;
+                margin-top: 60px;
+                justify-content:center;
+                text-wrap:balance;
+            }
+
+            .java{
+                background-color: #1B1A55;
+                border-style: solid;
+                width: 100px;
+                height: 70px;
+                text-align: center;
+                line-height: 75px;
+                font-size: 10px;
+                border-style:hidden;
+                margin-top: 60px;
+                justify-content:center;
+                text-wrap:balance;
+            }
+
+            .R{
+                background-color: #1B1A55;
+                border-style: solid;
+                width: 100px;
+                height: 70px;
+                text-align: center;
+                line-height: 75px;
+                font-size: 10px;
+                border-style:hidden;
+                margin-top: 60px;
+                justify-content:center;
+                text-wrap:balance;
+            }
+
+            .facebook{
+                border-style: solid;
+                width: 100px;
+                height: 70px;
+                text-align: center;
+                line-height: 75px;
+                font-size: 10px;
+                border-style:hidden;
+                margin-top: 60px;
+                justify-content:center;
+                text-wrap:balance;
+            }
+
+            .linkedIn{
+                border-style: solid;
+                width: 100px;
+                height: 70px;
+                text-align: center;
+                line-height: 75px;
+                font-size: 10px;
+                border-style:hidden;
+                margin-top: 60px;
+                justify-content:center;
+                text-wrap:balance;
+            }
+
+            .gitHub{
+                border-style: solid;
+                width: 100px;
+                height: 70px;
+                text-align: center;
+                line-height: 75px;
+                font-size: 10px;
+                border-style:hidden;
+                margin-top: 60px;
+                justify-content:center;
+                text-wrap:balance;
+            }
+
+
+            #logoJava{
+                width: 70%;
+                height: auto;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                border-radius: 50%;
+                margin-bottom: 100%;
+                margin-top: -10%;
+            }
+
+            #logoR{
+                width: 70%;
+                height: auto;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                border-radius: 50%;
+                margin-bottom: 100%;
+                margin-top: 1%;
+            }
+
+            #CText{
+                margin-top: -125px;
                 font-size: 30px;
                 font-family: Roboto;
                 color: white;
             }
+
+            #javaText{
+                margin-top: -132px;
+                font-size: 30px;
+                font-family: Roboto;
+                color: white;
+            }
+
+            #RText{
+                margin-top: -124px;
+                font-size: 30px;
+                font-family: Roboto;
+                color: white;
+            }
+
+            #LogoImgFooter{
+                width: 70%;
+                height: auto;
+            }
+
+            .socialMedia{
+                background-color: #1B1A55;
+                border-style: solid;
+                width: 100px;
+                height: 70px;
+                text-align: center;
+                line-height: 75px;
+                font-size: 10px;
+                border-style:hidden;
+                margin-top: 60px;
+                justify-content:center;
+                text-wrap:balance;
+
+            }
+
+            .footerLeft{
+                background-color: #f1f1f1;
+                border-style: solid;
+                width: 500px;
+                margin-right: 150px;
+                text-align: center;
+                line-height: 75px;
+                font-size: 30px;
+                flex-wrap: wrap;
+                display: flex;
+                background-color: #1B1A55;
+                border-style:hidden;
+            }
+
+            #footerText{
+                font-family: 'Roboto', sans-serif;
+                text-align: left;
+                font-size: x-large;
+            }
+
+            #contactMe{
+                font-family: 'Roboto', sans-serif;
+                text-align: left;
+                font-size: xx-large;
+                font-weight: 900;
+            }
+
+            #prevProj{
+                font-weight: 900;
+                font-size: 300%;
+                font-family: 'Roboto', sans-serif;
+                text-align: center;
+                margin-top: 5%;
+                font-style: italic;
+            }
+
+            #skillTitle{
+                font-weight: 900;
+                font-size: 300%;
+                font-family: 'Roboto', sans-serif;
+                text-align: center;
+
+                font-style: italic;
+            }
+            
 
     
         </style>
@@ -247,16 +504,16 @@
                     <img src="Logo.png" id="LogoImg">
                 </div>
                 <div class="navBar" style="flex: 3;">
-                    <a href="#">Home</a>   
+                    <a href="#" id="navText">HOME</a>   
                 </div>
                 <div class="navBar" style="flex: 3;">
-                    <a href="#">Projects</a> 
+                    <a href="#" id="navText">PROJECTS</a> 
                 </div>    
                 <div class="navBar" style="flex: 3;">
-                    <a href="#">Resume</a>   
+                    <a href="#" id="navText">RESUME</a>   
                 </div>
                 <div class="navBar" style="flex: 3;">
-                    <a href="#">Github</a> 
+                    <a href="#" id="navText">GITHUB</a> 
                 </div>  
         </div>
          <!--Flex for featured image text -->
@@ -276,15 +533,14 @@
                 
             </div> 
             <div class="description" style="flex: 3;">
-                <h1 id="about">About me</h1>
-                <p id="description">A strongly motivated BS Computer Science student who aims to acquire more knowledge in the field of Software Engineering; aspiring to enhance soft skills, including leadership, communication, and confidence, with the goal of achieving excellence.</p>
+                <p id="description">Aspiring Software Engineer</p>
                 
             </div>   
         </div>  
         <!--Flex for previous projects text -->
         <div class="project-container">
             <div class="project" style="flex: 3;" id="textID">
-                <h1>Previous Projects</h1>
+                <h1 id="prevProj">Previous Projects</h1>
                 
             </div>  
             
@@ -308,32 +564,36 @@
                 
             </div>  
         </div>
-        
+        <div class="project" style="flex: 3;" id="textID">
+            <h1 id="skillTitle">Skills</h1>
+            
+        </div>  
         <!--Flex for skills and autobiography -->
         <div class="skills-container">
+            
             <div class="skillsLogo">
                 
-                <div class="skillsub" style="flex: 3;">
+                <div class="python" style="flex: 3;">
                     
                     <img src="python.png" id="logo">
                     <p id="logoName">Python</p>
                 </div> 
-                <div class="skillsub" style="flex: 3;">
+                <div class="C" style="flex: 3;">
                     
                     <img src="C.png" id="logo">    
-                    <p id="logoName">C</p>
+                    <p id="CText">C</p>
                     
                 </div> 
-                <div class="skillsub" style="flex: 3;">
+                <div class="java" style="flex: 3;">
                     
-                    <img src="java.png" id="logo">  
-                    <p id="logoName">Java</p>
+                    <img src="java.png" id="logoJava">  
+                    <p id="javaText">Java</p>
                     
                 </div> 
-                <div class="skillsub" style="flex: 3;">
+                <div class="R" style="flex: 3;">
                     
-                    <img src="R.png" id="logo"> 
-                    <p id="logoName">R</p> 
+                    <img src="R.png" id="logoR"> 
+                    <p id="RText">R</p> 
                     
                 </div> 
                 
@@ -348,13 +608,32 @@
         
         <!--Flex for footer -->
         <div class="footer-container">
-            <div class="project" style="flex: 1;">
-                <h1>1</h1>
+            <div class="socialMediaLogo" style="flex:1 ">
                 
-            </div>  
+                <div class="facebook" style="flex: 3;">
+                    
+                    <img src="facebook.png" id="Sitelogo">
+                    
+                </div> 
+                <div class="linkedIn" style="flex: 3;">
+                    
+                    <img src="linkedIn.png" id="Sitelogo">    
+                   
+                    
+                </div> 
+                <div class="gitHub" style="flex: 3;">
+                    
+                    <img src="gitHub.png" id="Sitelogo">                     
+                </div> 
+               
+                
+            </div> 
+          <!--Flex for contact information -->
             <div class="project" style="flex: 3;">
-                <h1>2</h1>
-                
+                <h1 id="contactMe">Contact Me</h1>
+                <P id="footerText">Topaz-234, East Residences Ortigas, Monaco Street, Ciudad Grande II, Rosario, Pasig City</P>
+                <P id="footerText">09162051250</P>
+                <p id="footerText">jsdeoduco@up.edu.ph</p>
             </div>   
         </div>
         
